@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET Web Application\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|e:\\asp.net web application\\lab1\\lab01_3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|solutionrelative:lab01_3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23073084-D32D-428D-AF9E-60AB8B85843B}|Lab1\\Lab1.csproj|e:\\asp.net web application\\lab1\\lab1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23073084-D32D-428D-AF9E-60AB8B85843B}|Lab1\\Lab1.csproj|solutionrelative:lab1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|e:\\asp.net web application\\lab1\\lab01_3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|solutionrelative:lab01_3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|e:\\asp.net web application\\lab1\\lab01_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|solutionrelative:lab01_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|e:\\asp.net web application\\lab1\\lab01_3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5701904A-2155-4318-B6C4-BF8A94E7DFC1}|Lab01_3\\Lab01_3.csproj|solutionrelative:lab01_3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Lab01_3\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Lab01_3\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T12:16:07.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab01_3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab01_3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T12:01:26.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab1\\Lab1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab1\\Lab1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T12:00:35.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Lab01_3\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Lab01_3\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T11:54:26.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lab01_3\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab1\\Lab01_3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lab01_3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:32:58.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
