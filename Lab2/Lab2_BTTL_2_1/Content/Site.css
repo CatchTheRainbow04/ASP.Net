@@ -1,0 +1,37 @@
+﻿/* ... existing CSS ... */
+
+ul {
+    list-style-type: none;
+}
+
+    ul li {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        max-width:500px;
+        display:flex;
+        justify-content:space-between;
+    }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Make the "Tải về" and "Chi tiết" links align horizontally */
+ul li a {
+    display: inline-block;
+}
+
+audio{
+    display:flex;
+}

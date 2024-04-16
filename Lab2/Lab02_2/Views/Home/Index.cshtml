@@ -1,0 +1,18 @@
+﻿@model List<Song>
+
+@{
+    ViewBag.Title = "Danh sách bài hát";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<ul>
+    @foreach (var song in Model)
+    {
+        <li>
+            @song.Title
+            <a href="@Url.Action("Download", new { id = song.Id })">Tải về</a>
+            <a href="@Url.Action("Detail", new { id = song.Id })">Chi tiết</a>
+        </li>
+    }
+</ul>

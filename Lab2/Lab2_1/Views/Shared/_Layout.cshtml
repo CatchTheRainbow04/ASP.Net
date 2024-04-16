@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar-nav li {
+            float : left;
+            
+        }
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .navbar li a:hover {
+            background-color: #111; /* Màu nền khi di chuột qua */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        @Html.ActionLink("ViewResult", "TestViewResult",
+"Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("PartialViewResult",
+                "TestPartialViewResult", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("EmptyResult", "TestEmptyResult",
+                "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("RedirectResult ",
+                "TestRedirectResult", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("JsonResult", "TestJsonResult",
+                "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("JavaScriptResult",
+                "TestJavaScriptResult", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("ContentResult",
+                "TestContentResult", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("FileContentResult ",
+                "TestFileContentResult", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("FileStreamResult",
+                "TestFileStreamResult", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("FilePathResult",
+                "TestFilePathResult", "Home")
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

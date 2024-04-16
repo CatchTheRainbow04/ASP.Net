@@ -1,0 +1,14 @@
+﻿@model Song
+
+@{
+    ViewBag.Title = "Chi tiết bài hát: " + Model.Title;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>Tên bài hát: @Model.Title</p>
+
+<audio controls>
+    <source src="@Model.FilePath" type="audio/mpeg">
+    Trình duyệt không hỗ trợ phát audio.
+</audio>
