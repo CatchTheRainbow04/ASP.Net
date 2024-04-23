@@ -108,7 +108,7 @@ namespace Lab2_1.Controllers
         public FileStreamResult TestFileStreamResult()
         {
             string pathFile = Server.MapPath("~/Content/báo cáo.docx");
-            string fileName = "vonsong.docx";
+            string fileName = "báo cáo.docx";
             return File(new FileStream(pathFile, FileMode.Open),
             "text/doc", fileName);
         }

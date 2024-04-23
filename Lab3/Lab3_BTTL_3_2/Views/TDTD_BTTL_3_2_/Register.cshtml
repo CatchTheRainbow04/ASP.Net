@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2 style="text-transform:uppercase">thông tin đăng kí</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <td>Tên đơn vị tuyển</td>
+        <td>@TempData["DVT"]</td>
+    </tr>
+    <tr>
+        <td>Loại hình doanh nghiệp</td>
+        <td>@TempData["LHDN"]</td>
+    </tr>
+    <tr>
+        <td>Số lượng</td>
+        <td>@TempData["SL"]</td>
+    </tr>
+    <tr>
+        <td>Địa chỉ</td>
+        <td>@TempData["Address"]</td>
+    </tr>
+    <tr>
+        <td>Người liên hệ</td>
+        <td>@TempData["LH"]</td>
+    </tr>
+    <tr>
+        <td>Số điện thoại</td>
+        <td>@TempData["SDT"]</td>
+    </tr>
+    <tr>
+        <td>Số Fax</td>
+        <td>@TempData["FAX"]</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>@TempData["Email"]</td>
+    </tr>
+    <tr>
+        <td>Địa chỉ Website</td>
+        <td>@TempData["Website"]</td>
+    </tr>
+    <tr>
+        <td>Tên đăng nhập</td>
+        <td>@TempData["UserName"]</td>
+    </tr>
+    <tr>
+        <td>Mật khẩu</td>
+        <td>@TempData["Password"]</td>
+    </tr>
+    <tr>
+        <td>Nhận thư điện tử</td>
+        <td>@TempData["Receive"]</td>
+    </tr>
+</table>

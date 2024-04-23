@@ -1,12 +1,85 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\ASP.NET Web Application\\Lab2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{203001A2-280B-45DF-A0A5-ACE114AB8D90}|Lab2_BTTL_2_1\\Lab2_BTTL_2_1.csproj|e:\\asp.net web application\\lab2\\lab2_bttl_2_1\\controllers\\tdtd_homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203001A2-280B-45DF-A0A5-ACE114AB8D90}|Lab2_BTTL_2_1\\Lab2_BTTL_2_1.csproj|solutionrelative:lab2_bttl_2_1\\controllers\\tdtd_homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203001A2-280B-45DF-A0A5-ACE114AB8D90}|Lab2_BTTL_2_1\\Lab2_BTTL_2_1.csproj|E:\\ASP.NET Web Application\\Lab2\\lab2_bttl_2_1\\views\\tdtd_home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{203001A2-280B-45DF-A0A5-ACE114AB8D90}|Lab2_BTTL_2_1\\Lab2_BTTL_2_1.csproj|solutionrelative:lab2_bttl_2_1\\views\\tdtd_home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8DC161-4A90-43DF-90ED-C5773858D817}|Lab2_1\\Lab2_1.csproj|E:\\ASP.NET Web Application\\Lab2\\lab2_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8DC161-4A90-43DF-90ED-C5773858D817}|Lab2_1\\Lab2_1.csproj|solutionrelative:lab2_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8DC161-4A90-43DF-90ED-C5773858D817}|Lab2_1\\Lab2_1.csproj|E:\\ASP.NET Web Application\\Lab2\\lab2_1\\controllers\\tdtd_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8DC161-4A90-43DF-90ED-C5773858D817}|Lab2_1\\Lab2_1.csproj|solutionrelative:lab2_1\\controllers\\tdtd_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab2\\Lab2_BTTL_2_1\\Views\\TDTD_Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab2_BTTL_2_1\\Views\\TDTD_Home\\Index.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab2\\Lab2_BTTL_2_1\\Views\\TDTD_Home\\Index.cshtml",
+              "RelativeToolTip": "Lab2_BTTL_2_1\\Views\\TDTD_Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T03:35:00.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TDTD_HomeController.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab2\\Lab2_BTTL_2_1\\Controllers\\TDTD_HomeController.cs",
+              "RelativeDocumentMoniker": "Lab2_BTTL_2_1\\Controllers\\TDTD_HomeController.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab2\\Lab2_BTTL_2_1\\Controllers\\TDTD_HomeController.cs",
+              "RelativeToolTip": "Lab2_BTTL_2_1\\Controllers\\TDTD_HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:34:46.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab2\\Lab2_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lab2_1\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab2\\Lab2_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lab2_1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAADwv2kAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:43:06.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TDTD_Controller.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\Lab2\\Lab2_1\\Controllers\\TDTD_Controller.cs",
+              "RelativeDocumentMoniker": "Lab2_1\\Controllers\\TDTD_Controller.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\Lab2\\Lab2_1\\Controllers\\TDTD_Controller.cs",
+              "RelativeToolTip": "Lab2_1\\Controllers\\TDTD_Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:42:50.28Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

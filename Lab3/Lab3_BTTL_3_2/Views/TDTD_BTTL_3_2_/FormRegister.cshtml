@@ -1,0 +1,166 @@
+﻿
+@{
+    ViewBag.Title = "FormRegister";
+}
+<style>
+    .custom-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom-table {
+        width: 500px;
+        border-collapse: collapse;
+        margin: 0 auto; /* Căn giữa các table */
+    }
+
+    table td, table th {
+        width: 200px;
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    /* Bỏ thuộc tính display: flex; cho các table */
+    .infoRecruiting table,
+    .infoSignIn table,
+    .infoContact table,
+    .receive table {
+        display: block;
+        justify-content: center;
+    }
+    .custom-textbox{
+        width:300px;
+    }
+    .the-title {
+        display:flex;
+        justify-content:center;
+    }
+    .title {
+        width: 497.5px;
+        text-align: center;
+        background-color: #1B7CC6;
+        margin-bottom: 0;
+        line-height: 2;
+        margin-right: 3px;
+        color: #FFFFFF;
+        text-transform:uppercase;
+    }
+    .custom-radio-group {
+        display: flex;
+        align-items: center;
+    }
+
+    .custom-radio {
+        width: 125px;
+        margin-right: 15px;
+    }
+    .custom-radio input[type="radio"] {
+        margin-right: 10px;
+    }
+    .button-group {
+        display :flex;
+        justify-content:center;
+        margin-top : 20px;
+    }
+    .button-group input {
+        margin-right:20px;
+    }
+</style>
+
+<div class="centered-content">
+    @{
+        Html.BeginForm("Register", "TDTD_BTTL_3_2_", FormMethod.Get);
+        <div class="infoRecruiting">
+                <div class="the-title">
+                    <h6 class="title">thông tin về đơn tuyển dụng</h6>
+                </div>
+            <table class="custom-table">
+                <tr>
+                    <td>@Html.Label("Tên đơn vị tuyển (*)")</td>
+                    <td>@Html.TextBox("txtDVT", null, new { @class = "custom-textbox" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Loại hình doanh nghiệp (*)")</td>
+                    <td>@Html.DropDownList("LHDN", new SelectList(ViewBag.listType, "ID", "Name"))</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Số lượng")</td>
+                    <td>@Html.TextBox("txtSL", null, new { @class = "custom-textbox" })</td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoContact">
+            <div class="the-title">
+                <h6 class="title">thông tin liên hệ</h6>
+            </div>
+            <table class="custom-table">
+                <tr>
+                    <td>@Html.Label("Địa chỉ (*)")</td>
+                    <td>@Html.TextArea("txtAddress", null, new { @style = "width: 300px; height: 50px;" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Người liên hệ (*)")</td>
+                    <td>@Html.TextBox("txtLH", null, new { @class = "custom-textbox" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Số điện thoại (*)")</td>
+                    <td>@Html.TextBox("txtSDT", null, new { @class = "custom-textbox" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Số Fax")</td>
+                    <td>@Html.TextBox("txtFAX", null, new { @class = "custom-textbox" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Email")</td>
+                    <td>@Html.TextBox("txtEmail", null, new { @class = "custom-textbox" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Địa chỉ Website")</td>
+                    <td>@Html.TextBox("txtWebsite", null, new { @class = "custom-textbox" })</td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoSignIn">
+            <div class="the-title">
+                <h6 class="title">thông tin đăng nhập</h6>
+            </div>
+            <table class="custom-table">
+                <tr>
+                    <td>@Html.Label("Tên đăng nhập (*)")</td>
+                    <td>@Html.TextBox("txtUserName", null, new { @class = "custom-textbox" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Mật khẩu (*)")</td>
+                    <td>@Html.Password("txtPassword", null, new { @class = "custom-textbox" })</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Nhập lại mật khẩu (*)")</td>
+                    <td>@Html.Password("txtRPassword", null, new { @class = "custom-textbox" })</td>
+                </tr>
+            </table>
+        </div>
+        <div class="receive">
+            <div class="the-title">
+                <h6 class="title">nhận e-mail</h6>
+            </div>
+            <table class="custom-table">
+                <tr>
+                    <td>@Html.Label("Nhận thư điện tử")</td>
+                    <td>
+                        <div class="custom-radio-group">
+                            <label class="custom-radio">@Html.RadioButton("btnReceive", "Nhận", true) Nhận</label>
+                            <label class="custom-radio">@Html.RadioButton("btnReceive", "Không nhận") Không nhận</label>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+        <div class="button-group">
+            <input class="btn btn-outline-success" type="submit" value="Cập nhật" />
+            <input class="btn btn-outline-warning" type="submit" value="Huỷ bỏ" />
+        </div>
+        Html.EndForm();
+    }
+</div>

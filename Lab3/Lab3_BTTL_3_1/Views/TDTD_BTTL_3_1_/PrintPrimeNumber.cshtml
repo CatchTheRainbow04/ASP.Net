@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "PrintPrimeNumber";
+}
+
+<h1>Đây là các số nguyên tố từ 1 tới 100</h1>
+
+@{
+    bool isPrime(int i)
+    {
+        if (i < 2)
+        {
+            return false;
+        }
+        for (int n = 2; n <= Math.Sqrt(i); n++)
+        {
+            if (i % n == 0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    string printPrime = "";
+    for (int i = 2; i <= 100; i++)
+    {
+        if (isPrime(i))
+        {
+            printPrime += i + ", ";
+        }
+    }
+    printPrime = printPrime.TrimEnd(' ', ',');
+    <h3>@printPrime</h3>
+}

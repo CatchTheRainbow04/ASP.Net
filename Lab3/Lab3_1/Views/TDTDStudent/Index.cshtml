@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Trang quản lý học sinh";
+}
+
+<h2>Phần mềm quản lý học sinh</h2>
+@*Nhập dữ liệu từ controller lưu trong ViewData*@
+
+<h3>@ViewData["msg"] : @ViewData["time"]</h3>
+
+@Html.Partial("_TestPartialView")
+@{Html.BeginForm("StudentList", "TDTDStudent");}
+@Html.Label("User Name:")</br>
+@Html.TextBox("textBox1")</br></br>
+@Html.Label("Address:")</br> @Html.TextArea("textarea1")</br></br>
+@Html.Label("Password:")</br>@Html.Password("password")</br></br>
+<a href='@Url.Action("TestTempData", "TDTDStudent")'>Browse</a>
+@{Html.EndForm();}
