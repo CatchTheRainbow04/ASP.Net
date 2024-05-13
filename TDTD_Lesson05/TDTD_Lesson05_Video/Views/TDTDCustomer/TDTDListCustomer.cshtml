@@ -1,0 +1,39 @@
+﻿@model List<TDTD_Lesson05_Video.Models.TDTDCustomer>
+@{
+    ViewBag.Title = "Danh sách khách hàng";
+    var list = Model as List<TDTD_Lesson05_Video.Models.TDTDCustomer>;
+    int stt = 0;
+}
+
+<h2>Danh sách khách hàng</h2>
+<div class="row">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Mã số</th>
+                <th>Họ và tên</th>
+                <th>Địa chỉ</th>
+                <th>Năm sinh</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                stt++;
+                <tr>
+                    <td>@stt</td>
+                    <td>@i.CustomerID</td>
+                    <td>@i.FirstName @i.LastName</td>
+                    <td>@i.Address</td>
+                    <td>@i.YearOfBirth</td>
+                    <td>
+                        <a href="#">Edit</a>
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

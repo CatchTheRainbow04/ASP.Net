@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|e:\\asp.net web application\\tdtd_lesson05\\tdtd_lab04_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|solutionrelative:tdtd_lab04_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|e:\\asp.net web application\\tdtd_lesson05\\tdtd_lab04_2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|solutionrelative:tdtd_lab04_2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|e:\\asp.net web application\\tdtd_lesson05\\tdtd_lab04_2\\controllers\\tdtdcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|solutionrelative:tdtd_lab04_2\\controllers\\tdtdcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|e:\\asp.net web application\\tdtd_lesson05\\tdtd_lab04_2\\models\\tdtdcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|solutionrelative:tdtd_lab04_2\\models\\tdtdcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|e:\\asp.net web application\\tdtd_lesson05\\tdtd_lab04_2\\models\\tdtdcustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1977B3-6EEA-4B15-B66C-AEBD2CEFA33C}|TDTD_Lab04_2\\TDTD_Lab04_2.csproj|solutionrelative:tdtd_lab04_2\\models\\tdtdcustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "TDTD_Lab04_2\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "TDTD_Lab04_2\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:47:17.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TDTD_Lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TDTD_Lab04_2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T14:45:06.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TDTDCustomerController.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Controllers\\TDTDCustomerController.cs",
+              "RelativeDocumentMoniker": "TDTD_Lab04_2\\Controllers\\TDTDCustomerController.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Controllers\\TDTDCustomerController.cs",
+              "RelativeToolTip": "TDTD_Lab04_2\\Controllers\\TDTDCustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:31:47.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TDTDCustomerRepository.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Models\\TDTDCustomerRepository.cs",
+              "RelativeDocumentMoniker": "TDTD_Lab04_2\\Models\\TDTDCustomerRepository.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Models\\TDTDCustomerRepository.cs",
+              "RelativeToolTip": "TDTD_Lab04_2\\Models\\TDTDCustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:25:51.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TDTDCustomer.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Models\\TDTDCustomer.cs",
+              "RelativeDocumentMoniker": "TDTD_Lab04_2\\Models\\TDTDCustomer.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTD_Lesson05\\TDTD_Lab04_2\\Models\\TDTDCustomer.cs",
+              "RelativeToolTip": "TDTD_Lab04_2\\Models\\TDTDCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:23:34.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

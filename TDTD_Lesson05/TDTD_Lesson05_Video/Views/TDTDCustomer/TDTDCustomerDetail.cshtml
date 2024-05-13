@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "TDTDCustomerDetail";
+}
+
+<h2>Thông tin khách hàng</h2>
+<div class="alert alert-heading">
+    <p>Mã số : @ViewBag.cus.CustomerID </p>
+    <p>
+        Họ và Tên :
+        @ViewBag.cus.FirstName
+        @ViewBag.cus.LastName
+    </p>
+    <p>Địa chỉ : @ViewBag.cus.Address</p>
+    <p>Năm sinh : @ViewBag.cus.YearOfBirth</p>
+</div>
