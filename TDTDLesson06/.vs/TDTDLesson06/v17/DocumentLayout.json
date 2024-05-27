@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET Web Application\\TDTDLesson06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|e:\\asp.net web application\\tdtdlesson06\\lesson06_1\\views\\tdtdsong\\tdtdindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|solutionrelative:lesson06_1\\views\\tdtdsong\\tdtdindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|E:\\ASP.NET Web Application\\TDTDLesson06\\lesson06_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|solutionrelative:lesson06_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|e:\\asp.net web application\\tdtdlesson06\\lesson06_1\\views\\tdtdsong\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|solutionrelative:lesson06_1\\views\\tdtdsong\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|E:\\ASP.NET Web Application\\TDTDLesson06\\lesson06_1\\controllers\\tdtdsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|solutionrelative:lesson06_1\\controllers\\tdtdsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|E:\\ASP.NET Web Application\\TDTDLesson06\\lesson06_1\\models\\tdtdsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|solutionrelative:lesson06_1\\models\\tdtdsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TDTDIndex.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Views\\TDTDSong\\TDTDIndex.cshtml",
+              "RelativeDocumentMoniker": "Lesson06_1\\Views\\TDTDSong\\TDTDIndex.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Views\\TDTDSong\\TDTDIndex.cshtml",
+              "RelativeToolTip": "Lesson06_1\\Views\\TDTDSong\\TDTDIndex.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T12:07:33.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lesson06_1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lesson06_1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T07:35:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TDTDCreate.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Views\\TDTDSong\\TDTDCreate.cshtml",
+              "RelativeDocumentMoniker": "Lesson06_1\\Views\\TDTDSong\\TDTDCreate.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Views\\TDTDSong\\TDTDCreate.cshtml",
+              "RelativeToolTip": "Lesson06_1\\Views\\TDTDSong\\TDTDCreate.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:59:07.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TDTDSongController.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Controllers\\TDTDSongController.cs",
+              "RelativeDocumentMoniker": "Lesson06_1\\Controllers\\TDTDSongController.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Controllers\\TDTDSongController.cs",
+              "RelativeToolTip": "Lesson06_1\\Controllers\\TDTDSongController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwCEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:55:17.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TDTDSong.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Models\\TDTDSong.cs",
+              "RelativeDocumentMoniker": "Lesson06_1\\Models\\TDTDSong.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Models\\TDTDSong.cs",
+              "RelativeToolTip": "Lesson06_1\\Models\\TDTDSong.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:52:30.01Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
