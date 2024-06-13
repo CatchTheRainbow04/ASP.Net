@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdcategory\\tdtdindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdcategory\\tdtdindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdcategory\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdcategory\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdbooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdbooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Controllers\\TdtdCategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:TdtdLesson08CF\\Controllers\\TdtdCategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Models\\TdtdCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:TdtdLesson08CF\\Models\\TdtdCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdBooks\\Index.cshtml",
+              "RelativeDocumentMoniker": "TdtdLesson08CF\\Views\\TdtdBooks\\Index.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdBooks\\Index.cshtml",
+              "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdBooks\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T04:40:08.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdBooks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TdtdLesson08CF\\Views\\TdtdBooks\\Delete.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdBooks\\Delete.cshtml",
+              "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdBooks\\Delete.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T04:22:13.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdBooks\\Create.cshtml",
+              "RelativeDocumentMoniker": "TdtdLesson08CF\\Views\\TdtdBooks\\Create.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdBooks\\Create.cshtml",
+              "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdBooks\\Create.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T04:22:05.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TdtdCreate.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdCategory\\TdtdCreate.cshtml",
+              "RelativeDocumentMoniker": "TdtdLesson08CF\\Views\\TdtdCategory\\TdtdCreate.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdCategory\\TdtdCreate.cshtml",
+              "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdCategory\\TdtdCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T04:21:29.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TdtdIndex.cshtml",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdCategory\\TdtdIndex.cshtml",
+              "RelativeDocumentMoniker": "TdtdLesson08CF\\Views\\TdtdCategory\\TdtdIndex.cshtml",
+              "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdCategory\\TdtdIndex.cshtml",
+              "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdCategory\\TdtdIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T04:00:04.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TdtdCategoryController.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Controllers\\TdtdCategoryController.cs",
+              "RelativeDocumentMoniker": "TdtdLesson08CF\\Controllers\\TdtdCategoryController.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Controllers\\TdtdCategoryController.cs",
+              "RelativeToolTip": "TdtdLesson08CF\\Controllers\\TdtdCategoryController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:31:12.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TdtdCategory.cs",
+              "DocumentMoniker": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Models\\TdtdCategory.cs",
+              "RelativeDocumentMoniker": "TdtdLesson08CF\\Models\\TdtdCategory.cs",
+              "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Models\\TdtdCategory.cs",
+              "RelativeToolTip": "TdtdLesson08CF\\Models\\TdtdCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T01:33:36.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|solutionrelative:lesson06_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|e:\\asp.net web application\\tdtdlesson06\\lesson06_1\\views\\tdtdsong\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|E:\\ASP.NET Web Application\\TDTDLesson06\\lesson06_1\\views\\tdtdsong\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9AD3B835-6A35-4643-A21E-B23915B8252F}|Lesson06_1\\Lesson06_1.csproj|solutionrelative:lesson06_1\\views\\tdtdsong\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Lesson06_1\\Views\\TDTDSong\\TDTDIndex.cshtml",
               "ToolTip": "E:\\ASP.NET Web Application\\TDTDLesson06\\Lesson06_1\\Views\\TDTDSong\\TDTDIndex.cshtml",
               "RelativeToolTip": "Lesson06_1\\Views\\TDTDSong\\TDTDIndex.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAeAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-27T12:07:33.348Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Lesson06_1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T07:35:30.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T07:35:30.215Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Lesson06_1\\Views\\TDTDSong\\TDTDCreate.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T06:59:07.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T06:59:07.018Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Lesson06_1\\Controllers\\TDTDSongController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAxwCEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T06:55:17.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T06:55:17.251Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<TdtdLesson08CF.Models.TdtdCategory>
+
+<button class="btn btn-outline-dark">
+    @Html.ActionLink("Create New", "TdtdCreate" , null , new { style = "text-decoration:none"})
+</button>
+<table class="table">
+    <tr>
+        <th>
+            Category List
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TdtdCategoryName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", null, new { id=item.TdtdCategoryId , style = "text-decoration:none" }) |
+            @Html.ActionLink("Details", "Details", null, new { id = item.TdtdCategoryId, style = "text-decoration:none" }) |
+            @Html.ActionLink("Delete", "Delete", null, new { id = item.TdtdCategoryId, style = "text-decoration:none" })
+        </td>
+    </tr>
+}
+
+</table>

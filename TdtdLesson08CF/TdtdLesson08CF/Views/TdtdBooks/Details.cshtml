@@ -1,0 +1,66 @@
+﻿@model TdtdLesson08CF.Models.TdtdBook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TdtdBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TdtdCategory.TdtdCategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TdtdCategory.TdtdCategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TdtdBookTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TdtdBookTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TdtdAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TdtdAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TdtdYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TdtdYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TdtdPulisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TdtdPulisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TdtdPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TdtdPicture)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TdtdBookId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

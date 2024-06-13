@@ -1,0 +1,49 @@
+﻿@model Lab_04._1.Models.Product
+
+@{
+    ViewBag.Title = "ProductDetail";
+}
+
+<h2>ProductDetail</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Unit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "ProductEdit", new { id = Model.ProductId }) |
+    @Html.ActionLink("Back to List", "ProductList")
+</p>

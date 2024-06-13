@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TDTD_Lesson07_1.Models.TDTDStudent>
+
+@{
+    ViewBag.Title = "Thêm mới sinh viên";
+}
+
+<h2>Trang thêm mới sinh viên</h2>
+
+<style>
+    .decoration {
+        text-decoration : none ;
+    }
+</style>
+<button class="btn btn-outline-warning mb-4">
+    @Html.ActionLink("Thêm mới sinh viên", "TdtdCreate" , null , new { @class = "decoration" })
+</button>
+
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TdtdFullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TdtdEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TdtdPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TdtdPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TdtdYearOfBirth)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var TdtdItem in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => TdtdItem.TdtdFullname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => TdtdItem.TdtdEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => TdtdItem.TdtdPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => TdtdItem.TdtdPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => TdtdItem.TdtdYearOfBirth)
+        </td>
+        <td>
+            @Html.ActionLink("TDTD - Edit", "TdtdEdit", new { id= TdtdItem.TdtdId }) |
+            @Html.ActionLink("TDTD - Details", "TdtdDetails", new { id= TdtdItem.TdtdId }) |
+            @Html.ActionLink("TDTD - Delete", "TdtdDelete", new { id= TdtdItem.TdtdId })
+        </td>
+    </tr>
+}
+
+</table>
