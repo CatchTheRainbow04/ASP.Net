@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TDTDK22CNT2LESSON09DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tdtdKhoa">
+    <Key>
+      <PropertyRef Name="TdtdMaKH" />
+    </Key>
+    <Property Name="TdtdMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TdtdTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TdtdTrangThai" Type="Boolean" />
+    <NavigationProperty Name="tdtdSinhVien" Relationship="TDTDK22CNT2LESSON09DBModel.FK_tdtdSinhVien_tdtdKhoa" FromRole="tdtdKhoa" ToRole="tdtdSinhVien" />
+  </EntityType>
+  <EntityType Name="tdtdSinhVien">
+    <Key>
+      <PropertyRef Name="TdtdMaSV" />
+    </Key>
+    <Property Name="TdtdMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TdtdHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TdtdTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TdtdNgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="TdtdGioiTinh" Type="Boolean" />
+    <Property Name="TdtdPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="TdtdEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TdtdMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="tdtdKhoa" Relationship="TDTDK22CNT2LESSON09DBModel.FK_tdtdSinhVien_tdtdKhoa" FromRole="tdtdSinhVien" ToRole="tdtdKhoa" />
+  </EntityType>
+  <EntityContainer Name="TDTDK22CNT2LESSON09DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tdtdKhoa" EntityType="Self.tdtdKhoa" />
+    <EntitySet Name="tdtdSinhVien" EntityType="Self.tdtdSinhVien" />
+    <AssociationSet Name="FK_tdtdSinhVien_tdtdKhoa" Association="TDTDK22CNT2LESSON09DBModel.FK_tdtdSinhVien_tdtdKhoa">
+      <End Role="tdtdKhoa" EntitySet="tdtdKhoa" />
+      <End Role="tdtdSinhVien" EntitySet="tdtdSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_tdtdSinhVien_tdtdKhoa">
+    <End Type="TDTDK22CNT2LESSON09DBModel.tdtdKhoa" Role="tdtdKhoa" Multiplicity="0..1" />
+    <End Type="TDTDK22CNT2LESSON09DBModel.tdtdSinhVien" Role="tdtdSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tdtdKhoa">
+        <PropertyRef Name="TdtdMaKH" />
+      </Principal>
+      <Dependent Role="tdtdSinhVien">
+        <PropertyRef Name="TdtdMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

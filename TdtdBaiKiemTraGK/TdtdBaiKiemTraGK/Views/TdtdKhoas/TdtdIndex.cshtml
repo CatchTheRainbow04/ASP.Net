@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TdtdBaiKiemTraGK.Models.tdtdKhoa>
+
+@{
+    ViewBag.Title = "TdtdIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "TdtdCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TdtdTenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TdtdTrangThai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TdtdTenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TdtdTrangThai)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "TdtdEdit", new { id=item.TdtdMaKH.Trim() }) |
+            @Html.ActionLink("Details", "TdtdDetails", new { id=item.TdtdMaKH.Trim() }) |
+            @Html.ActionLink("Delete", "TdtdDelete", new { id=item.TdtdMaKH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

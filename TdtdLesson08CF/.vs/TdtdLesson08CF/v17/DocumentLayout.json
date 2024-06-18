@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdcategory\\tdtdindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|E:\\ASP.NET Web Application\\TdtdLesson08CF\\tdtdlesson08cf\\views\\tdtdcategory\\tdtdindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdcategory\\tdtdindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdcategory\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|E:\\ASP.NET Web Application\\TdtdLesson08CF\\tdtdlesson08cf\\views\\tdtdcategory\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdcategory\\tdtdcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|E:\\ASP.NET Web Application\\TdtdLesson08CF\\tdtdlesson08cf\\views\\tdtdbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|e:\\asp.net web application\\tdtdlesson08cf\\tdtdlesson08cf\\views\\tdtdbooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|E:\\ASP.NET Web Application\\TdtdLesson08CF\\tdtdlesson08cf\\views\\tdtdbooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{581CFFC6-4A7A-46B3-B733-E698B6723913}|TdtdLesson08CF\\TdtdLesson08CF.csproj|solutionrelative:tdtdlesson08cf\\views\\tdtdbooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "TdtdLesson08CF\\Views\\TdtdBooks\\Index.cshtml",
               "ToolTip": "E:\\ASP.NET Web Application\\TdtdLesson08CF\\TdtdLesson08CF\\Views\\TdtdBooks\\Index.cshtml",
               "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdBooks\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAABMAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADcAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-13T04:40:08.826Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdBooks\\Delete.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T04:22:13.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T04:22:13.642Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdBooks\\Create.cshtml",
               "ViewState": "AQIAADkAAAAAAAAAAAAAAEoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T04:22:05.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T04:22:05.184Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdCategory\\TdtdCreate.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T04:21:29.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T04:21:29.403Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "TdtdLesson08CF\\Views\\TdtdCategory\\TdtdIndex.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T04:00:04.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T04:00:04.409Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "TdtdLesson08CF\\Controllers\\TdtdCategoryController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:31:12.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T07:31:12.68Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "TdtdLesson08CF\\Models\\TdtdCategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:33:36.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T01:33:36.408Z"
             }
           ]
         }

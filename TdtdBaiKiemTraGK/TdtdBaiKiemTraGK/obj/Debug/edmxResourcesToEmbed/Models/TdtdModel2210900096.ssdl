@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TDTDK22CNT2LESSON09DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tdtdKhoa">
+    <Key>
+      <PropertyRef Name="TdtdMaKH" />
+    </Key>
+    <Property Name="TdtdMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TdtdTenKH" Type="nvarchar" MaxLength="50" />
+    <Property Name="TdtdTrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="tdtdSinhVien">
+    <Key>
+      <PropertyRef Name="TdtdMaSV" />
+    </Key>
+    <Property Name="TdtdMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TdtdHoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TdtdTenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TdtdNgaySinh" Type="date" />
+    <Property Name="TdtdGioiTinh" Type="bit" />
+    <Property Name="TdtdPhone" Type="nchar" MaxLength="10" />
+    <Property Name="TdtdEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="TdtdMaKH" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_tdtdSinhVien_tdtdKhoa">
+    <End Role="tdtdKhoa" Type="Self.tdtdKhoa" Multiplicity="0..1" />
+    <End Role="tdtdSinhVien" Type="Self.tdtdSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tdtdKhoa">
+        <PropertyRef Name="TdtdMaKH" />
+      </Principal>
+      <Dependent Role="tdtdSinhVien">
+        <PropertyRef Name="TdtdMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TDTDK22CNT2LESSON09DBModelStoreContainer">
+    <EntitySet Name="tdtdKhoa" EntityType="Self.tdtdKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tdtdSinhVien" EntityType="Self.tdtdSinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tdtdSinhVien_tdtdKhoa" Association="Self.FK_tdtdSinhVien_tdtdKhoa">
+      <End Role="tdtdKhoa" EntitySet="tdtdKhoa" />
+      <End Role="tdtdSinhVien" EntitySet="tdtdSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
